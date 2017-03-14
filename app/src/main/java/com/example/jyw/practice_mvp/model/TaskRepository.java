@@ -19,6 +19,7 @@ public class TaskRepository implements ITaskRepository {
     // bbb
     // ccc
     // master
+    // merge
     public static TaskRepository newInstance() {
         if (instance == null) {
             synchronized (TaskRepository.class) {
