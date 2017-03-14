@@ -15,6 +15,7 @@ public class TaskRepository implements ITaskRepository {
         
     }
 
+    // master
     public static TaskRepository newInstance() {
         if (instance == null) {
             synchronized (TaskRepository.class) {
